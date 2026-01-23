@@ -3,6 +3,7 @@
     width:100%;
     height: auto;
 }
+
 .article-border{
     border: 2px solid black;
     border-radius: 5px;
@@ -12,9 +13,40 @@
 body{
 background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
+
+header{
+    background-color: white;
+    padding:20px 200px 0px 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*Footer section*/
 footer{
     background-color: black;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
 
+.text-position{
+    text-align: center;
+    padding-top:
+}
+
+#footer-list ul{
+   display:flex;
+   justify-content:space-evenly;
+   flex-direction: row;
+}
+
+#footer-list li{
+  list-style-type: none;
+}
+
+#footer-list a{
+    text-decoration: none;
+    color: white;
 }
 
 article{
