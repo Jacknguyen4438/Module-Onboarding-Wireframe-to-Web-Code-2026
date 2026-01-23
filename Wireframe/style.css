@@ -1,7 +1,7 @@
 /*Main part of the website content(do not deleted)*/
-.image-size {
-     width: 100%;
-     height: 20%;
+#image-size{
+    width:100%;
+    height: auto;
 }
 .article-border{
     border: 2px solid black;
@@ -10,26 +10,50 @@
     padding-bottom: 20px;
 }
 
+
+body{
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+footer{
+    background-color: black;
+
+}
+
+article{
+    background-color: white;
+}
 /*This is for the position of the first Item*/
 #div-1{
    width: 73%;
    height: 20%;
    position: relative;
    left:17%;
+   overflow: hidden;
+   margin-bottom: 20px;
 }
 
 /*This part is mainly for item 2 and 3*/
 
 #row-side{
-   width: 74%;
+   width:73%;
    display: flex;
    position: relative;
    left: 17%;
    padding: 0px 0px 0px -10px;
 }
 
+.content-size{
+    width: 60%;
+   
+}
 
-
+.image-size-2{
+    width:100%;
+    
+}
+#paragraph-3{
+    margin-bottom: 102px;
+}
 /*This for the read more button do not deleted*/
 .Link-box-border{
     border: 2px solid black;
@@ -40,6 +64,7 @@
 p{
     margin: 0px 0px 30px 5px;
 }
+
 
 /*For heading styling*/
 h2{
