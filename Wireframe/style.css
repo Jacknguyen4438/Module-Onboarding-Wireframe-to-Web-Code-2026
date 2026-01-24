@@ -53,10 +53,10 @@ article{
 
 /*This is for the position of the first Item*/
 #div-1{
-   width: 73%;
+   width: 58%;
    height: 20%;
    position: relative;
-   left:17%;
+   left:19%;
    overflow: hidden;
    margin-bottom: 20px;
 }
@@ -67,12 +67,12 @@ article{
    width:73%;
    display: flex;
    position: relative;
-   left: 17%;
+   left: 19%;
    padding: 0px 0px 0px -10px;
 }
 
 .content-size{
-    width: 60%;
+    width: 40%;
    
 }
 
