@@ -19,26 +19,30 @@
         </div>
         <br>
         <div>
-         <label for="Email">Costumer email:</label>
+         <label for="Email">Customer email:</label>
         <input type="email" id="Email" name="Email" required placeholder="example123@gmail.com">
         </div>
         <br>
-        <div>
-        <label for="Color">T-shirt color:</label>
-        <input type="color" id="Color" name=" Product-Color" required>
-        </div>
+        <fieldset>
+          <legend>Pick a color of your choosing</legend>
+          <label for="color-red">Red</label>
+          <input type="radio" id="color-red" name="color" value="Red">
+          <label for="color-blue">Blue</label>
+          <input type="radio" id="color-blue" name="color" value="Blue">
+          <label for="color-green">Green</label>
+          <input type="radio" id="color-green" name="color" value="Green">
+        </fieldset>
         <div>
         <br>
         <label for="Size">Shirt size</label>
         <select id="Size" name="Shirt size" required>
-           <option label="XS"  value="XS"></option>
-           <option label="S"   value="S"></option>
-           <option label="M"   value="M"></option>
-           <option label="L"   value="L"></option>
-           <option label="XL"  value="XL"></option>
-           <option label="XXL" value="XXL"></option>
+           <option  value="XS">XS</option>
+           <option  value="S">S</option>
+           <option  value="M">M</option>
+           <option  value="L">L</option>
+           <option  value="XL">XL</option>
+           <option  value="XXL">XXL</option>
         </select>
-        </label>
         </div>
         <br>
         <button type="submit">Submit</button>
