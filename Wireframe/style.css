@@ -51,24 +51,25 @@ article{
     background-color: white;
 }
 
+#main-div {
+    display: flex;
+    flex-direction: column;
+    width: '100%';
+    align-items: center;
+}
+
 /*This is for the position of the first Item*/
 #div-1{
    width: 58%;
    height: 20%;
-   position: relative;
-   left:19%;
-   overflow: hidden;
-   margin-bottom: 20px;
+   display: flex;
 }
 
 /*This part is mainly for item 2 and 3*/
 
 #row-side{
-   width:73%;
    display: flex;
-   position: relative;
-   left: 19%;
-   padding: 0px 0px 0px -10px;
+   justify-content: center;
 }
 
 .content-size{
