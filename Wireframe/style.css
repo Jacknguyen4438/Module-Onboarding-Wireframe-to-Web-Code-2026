@@ -1,106 +1,116 @@
 /*Main part of the website content(do not deleted)*/
-#image-size{
-    width:100%;
-    height: auto;
+#image-size {
+    width: 100%;
+    height: 400px;
 }
 
-.article-border{
+.article-border {
     border: 2px solid black;
     border-radius: 5px;
     margin: 0px 0px 0px 5px;
-    padding-bottom: 20px;
-}
-body{
-background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 20px;
 }
 
-header{
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+header {
     background-color: white;
-    padding:20px 200px 0px 200px;
+    padding: 0px 0px 0px 5px;
     border: 2px solid white;
     border-radius: 5px;
 }
 
+header p {
+    text-align: center;
+}
+
 /*Footer section*/
-footer{
+footer {
     background-color: black;
-    color:white;
+    color: white;
     border: 2px solid white;
     border-radius: 5px;
     text-align: center;
     padding-top: 20px;
-}
-#footer-list ul{
-   display:flex;
-   justify-content:space-evenly;
-   flex-direction: row;
-}
-
-#footer-list li{
-  list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
-#footer-list a{
+#footer-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#footer-list li {
+    list-style-type: none;
+}
+
+#footer-list a {
     text-decoration: none;
     color: white;
 }
 
 
 
-article{
+article {
     background-color: white;
 }
 
 #main-div {
     display: flex;
     flex-direction: column;
-    width: '100%';
+    width: 100%;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 /*This is for the position of the first Item*/
-#div-1{
-   width: 58%;
-   height: 20%;
-   display: flex;
+#div-1 {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    margin-bottom: 15.5px;
 }
 
 /*This part is mainly for item 2 and 3*/
 
-#row-side{
-   display: flex;
-   justify-content: center;
+#row-side {
+    display: flex;
+    justify-content: center;
 }
 
-.content-size{
-    width: 40%;
-   
+.content-size {
+    width: 30%;
+
 }
 
-.image-size-2{
-    width:100%;
-    
+.image-size-2 {
+    width: 100%;
+    height: 300px;
 }
-#paragraph-3{
-    margin-bottom: 102px;
-}
+
 /*This for the read more button do not deleted*/
-.Link-box-border{
+.Link-box-border {
     border: 2px solid black;
     margin: 0px 10px 0px 5px;
     padding: 10px 10px 10px 10px;
 }
 
-p{
+p {
     margin: 0px 0px 30px 5px;
 }
 
 
 /*For heading styling*/
-h2{
+h2 {
     margin-bottom: 5px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
